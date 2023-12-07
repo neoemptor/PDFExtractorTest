@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnStart = new System.Windows.Forms.Button();
-            this.rtbStats = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // btnStart
@@ -42,20 +41,11 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // rtbStats
-            // 
-            this.rtbStats.Location = new System.Drawing.Point(24, 247);
-            this.rtbStats.Name = "rtbStats";
-            this.rtbStats.Size = new System.Drawing.Size(764, 183);
-            this.rtbStats.TabIndex = 1;
-            this.rtbStats.Text = "";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.rtbStats);
             this.Controls.Add(this.btnStart);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -67,7 +57,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.RichTextBox rtbStats;
     }
 }
 
